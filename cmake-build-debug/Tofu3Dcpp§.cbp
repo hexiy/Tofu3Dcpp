@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tofu3Dcpp§"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glfw3\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tofu3Dcpp">
+				<Option output="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Tofu3Dcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hexiy/Desktop/dev/Tofu3Dcpp/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tofu3Dcpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tofu3Dcpp/fast">
+				<Option output="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Tofu3Dcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hexiy/Desktop/dev/Tofu3Dcpp/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tofu3Dcpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imconfig.h">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui.h">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_demo.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_draw.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_impl_glfw.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_impl_glfw.h">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_impl_opengl3.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_impl_opengl3.h">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_impl_opengl3_loader.h">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_tables.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/external/imgui/imgui_widgets.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/src/App.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/src/GLSLProgram.cpp">
+			<Option target="Tofu3Dcpp"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glfw3/GLFW3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glfw3/GLFW3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glm/glmConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/Users/hexiy/Desktop/dev/Tofu3Dcpp/../../../../../opt/homebrew/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

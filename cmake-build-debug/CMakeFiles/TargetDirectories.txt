@@ -1,0 +1,3 @@
+/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/CMakeFiles/Tofu3Dcpp.dir
+/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hexiy/Desktop/dev/Tofu3Dcpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
