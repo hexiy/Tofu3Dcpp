@@ -123,6 +123,41 @@ build CMakeFiles/Tofu3Dcpp.dir/src/RenderTexture.cpp.o: CXX_COMPILER__Tofu3Dcpp_
   OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
   OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
 
+build CMakeFiles/Tofu3Dcpp.dir/src/Scene.cpp.o: CXX_COMPILER__Tofu3Dcpp_Debug /Users/hexiy/Desktop/dev/Tofu3Dcpp/src/Scene.cpp || cmake_object_order_depends_target_Tofu3Dcpp
+  DEP_FILE = CMakeFiles/Tofu3Dcpp.dir/src/Scene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/hexiy/Desktop/dev/Tofu3Dcpp/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
+
+build CMakeFiles/Tofu3Dcpp.dir/src/GameObject.cpp.o: CXX_COMPILER__Tofu3Dcpp_Debug /Users/hexiy/Desktop/dev/Tofu3Dcpp/src/GameObject.cpp || cmake_object_order_depends_target_Tofu3Dcpp
+  DEP_FILE = CMakeFiles/Tofu3Dcpp.dir/src/GameObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/hexiy/Desktop/dev/Tofu3Dcpp/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
+
+build CMakeFiles/Tofu3Dcpp.dir/src/Component.cpp.o: CXX_COMPILER__Tofu3Dcpp_Debug /Users/hexiy/Desktop/dev/Tofu3Dcpp/src/Component.cpp || cmake_object_order_depends_target_Tofu3Dcpp
+  DEP_FILE = CMakeFiles/Tofu3Dcpp.dir/src/Component.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/hexiy/Desktop/dev/Tofu3Dcpp/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
+
+build CMakeFiles/Tofu3Dcpp.dir/src/Debug.cpp.o: CXX_COMPILER__Tofu3Dcpp_Debug /Users/hexiy/Desktop/dev/Tofu3Dcpp/src/Debug.cpp || cmake_object_order_depends_target_Tofu3Dcpp
+  DEP_FILE = CMakeFiles/Tofu3Dcpp.dir/src/Debug.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/hexiy/Desktop/dev/Tofu3Dcpp/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
+
+build CMakeFiles/Tofu3Dcpp.dir/src/Renderer.cpp.o: CXX_COMPILER__Tofu3Dcpp_Debug /Users/hexiy/Desktop/dev/Tofu3Dcpp/src/Renderer.cpp || cmake_object_order_depends_target_Tofu3Dcpp
+  DEP_FILE = CMakeFiles/Tofu3Dcpp.dir/src/Renderer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/hexiy/Desktop/dev/Tofu3Dcpp/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tofu3Dcpp.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tofu3Dcpp
@@ -131,7 +166,7 @@ build CMakeFiles/Tofu3Dcpp.dir/src/RenderTexture.cpp.o: CXX_COMPILER__Tofu3Dcpp_
 #############################################
 # Link the executable Tofu3Dcpp
 
-build Tofu3Dcpp: CXX_EXECUTABLE_LINKER__Tofu3Dcpp_Debug CMakeFiles/Tofu3Dcpp.dir/src/Window.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/GLSLProgram.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_impl_glfw.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_demo.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_draw.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_tables.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_widgets.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Main.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/RenderTexture.cpp.o | /opt/homebrew/lib/libglfw.3.3.dylib
+build Tofu3Dcpp: CXX_EXECUTABLE_LINKER__Tofu3Dcpp_Debug CMakeFiles/Tofu3Dcpp.dir/src/Window.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/GLSLProgram.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_impl_glfw.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_demo.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_draw.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_tables.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_widgets.cpp.o CMakeFiles/Tofu3Dcpp.dir/external/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Main.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/RenderTexture.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Scene.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/GameObject.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Component.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Debug.cpp.o CMakeFiles/Tofu3Dcpp.dir/src/Renderer.cpp.o | /opt/homebrew/lib/libglfw.3.3.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = -framework  OpenGL  -framework  OpenGL  /opt/homebrew/lib/libglfw.3.3.dylib
   OBJECT_DIR = CMakeFiles/Tofu3Dcpp.dir

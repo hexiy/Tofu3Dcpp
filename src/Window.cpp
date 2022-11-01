@@ -4,6 +4,9 @@
 #include <stdio.h>
 #include <GLFW/glfw3.h> // Will drag system OpenGL headers
 #include "Window.h"
+#include "Scene.h"
+#include "iostream"
+#include "Debug.h"
 
 static void glfw_error_callback(int error, const char *description)
 {
@@ -114,13 +117,13 @@ void Window::SetStyle()
     colors[(int) ImGuiCol_DragDropTarget] = ImVec4(0.16f, 0.16f, 0.17f, 0.95f);
 }
 
-void Window::Run()
+void Window::Run(Scene *scene)
 {
 
     // Main loop
     while (!glfwWindowShouldClose(window))
     {
-        Vector2 camSize = Vector2(400, 400);
+        Vector2 camSize = Vector2(800, 500);
 
         ImVec4 clear_color_renderTarget = ImVec4(0.8f, 0, 0.4f, 1.00f);
         glClearColor(clear_color_renderTarget.x * clear_color_renderTarget.w,
@@ -132,20 +135,16 @@ void Window::Run()
         sceneRenderTexture.Bind();
 
         glViewport(0, 0, camSize.x, camSize.y);
-
-        // render scene
-
-
-
         glClearColor(clear_color_renderTarget.x * clear_color_renderTarget.w,
                      clear_color_renderTarget.y * clear_color_renderTarget.w,
                      clear_color_renderTarget.z * clear_color_renderTarget.w,
                      clear_color_renderTarget.w);
         glClear(GL_COLOR_BUFFER_BIT);
+        // render scene
 
-
+        (*scene).Render();
         sceneRenderTexture.Unbind(); // end rendering to sceneRenderTexture
-
+        //std::cout << "FPS:"<<glfwGetTime() << std::endl;
 
         glfwPollEvents();
 

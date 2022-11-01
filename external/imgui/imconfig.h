@@ -115,6 +115,6 @@
 /*
 namespace ImGui
 {
-    void MyFunction(const char* name, const MyMatrix44& v);
+    void MyFunction(const char* Id, const MyMatrix44& v);
 }
 */
